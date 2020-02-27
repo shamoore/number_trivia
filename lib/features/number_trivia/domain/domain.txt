@@ -1,0 +1,12 @@
+below presentation layer
+
+contains use case (classes)
+platform independent
+core business logic
+business objects (entities)
+
+ex get concrete number, get random number
+
+repositories between domain/data layers
+
+dependency inversion - fancy way of saying abstract class repository to define interface for repository

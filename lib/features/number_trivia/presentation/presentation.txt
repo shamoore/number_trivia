@@ -1,0 +1,8 @@
+Widgets
+Pages
+Custom Widgets
+
+
+Presentation Logic Holders (State Management) - BloC, ChangeNotifier
+- delegate work to use cases and further down the layers (domain layer)
+- basic input validation

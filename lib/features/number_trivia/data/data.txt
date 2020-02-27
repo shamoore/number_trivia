@@ -1,0 +1,17 @@
+remote data sources or local data sources
+
+api
+DB
+gps/location
+device
+
+repository is brains - chooses when to get data, local or remote
+data sources output models, repositories output entities
+
+models extend entities, add functionality. cast into entity so repo can output the entity without the extra.
+models would have to/from json, or Ids from local db
+
+local storage is caching -- db, sharedPrefs, etc.
+
+remote used if internet otherwise local
+always cache data
